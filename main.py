@@ -16,7 +16,7 @@ CommandOpenHRM = bytes([0xAB, 0x00, 0x04, 0xFF, 0x84, 0x80, 0x01])
 CommandShakeWatch = bytes([0xAB, 0x00, 0x03, 0xFF, 0x71, 0x80])
 
 # Bluetooth MAC address of your smartwatch; If I'm not mistaken, you can find this in one of the watch's menus.
-address = "D5:0F:77:94:B1:1C"
+address = "00:00:00:00:00:00"
 
 
 # VRChat OSC server parameters; You shouldn't have to change these unless you're using a custom OSC config.
