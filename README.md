@@ -24,7 +24,7 @@ To add heart rate monitoring support to your avatar using GTServer, add a new `f
 - [Python-OSC](https://pypi.org/project/python-osc/)
 
 ### Setup
-Grab a copy of the latest commit [here](https://github.com/MochiDoesVR/GTServer/archive/refs/heads/main.zip), and extract it somewhere. Open `main.py` in your text editor of choice, and change the zeros on the line `address = "00:00:00:00:00:00"` to match the Bluetooth MAC address of your watch, which can be found in one of it's menus, and optionally set your OSC IP Address & Port, if you changed them in your VRChat launch options. 
+Grab a copy of the latest commit [here](https://github.com/MochiDoesVR/GTServer/archive/refs/heads/main.zip), and extract it somewhere. ~~Open `main.py` in your text editor of choice, and change the zeros on the line `address = "00:00:00:00:00:00"` to match the Bluetooth MAC address of your watch, which can be found in one of it's menus, and optionally set your OSC IP Address & Port, if you changed them in your VRChat launch options.~~ This is no longer required, as GTServer now automatically scans for your device as well!
 
 ### Running
 Open VRChat, run `start.bat`, and make sure your watch is powered on, not currently paired to any devices, and in range of your computer, otherwise the script will exit!
